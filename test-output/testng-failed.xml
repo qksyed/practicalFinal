@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.BackgroudColor">
+      <class name="test.MonthDueDropDown">
         <methods>
-          <include name="testBackgroundColorChange"/>
+          <include name="testMonthsDueDropdown"/>
         </methods>
-      </class> <!-- test.BackgroudColor -->
+      </class> <!-- test.MonthDueDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

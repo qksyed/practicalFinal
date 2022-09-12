@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-12T16:55:28Z" name="Default suite" finished-at="2022-09-12T16:55:36Z" duration-ms="8496">
+  <suite started-at="2022-09-12T18:16:43Z" name="Default suite" finished-at="2022-09-12T18:16:52Z" duration-ms="9117">
     <groups>
     </groups>
-    <test started-at="2022-09-12T16:55:28Z" name="Default test" finished-at="2022-09-12T16:55:36Z" duration-ms="8496">
-      <class name="test.BackgroudColor">
-        <test-method signature="testBackgroundColorChange()[pri:0, instance:test.BackgroudColor@404bbcbd]" started-at="2022-09-12T16:55:28Z" name="testBackgroundColorChange" finished-at="2022-09-12T16:55:36Z" duration-ms="8476" status="PASS">
+    <test started-at="2022-09-12T18:16:43Z" name="Default test" finished-at="2022-09-12T18:16:52Z" duration-ms="9117">
+      <class name="test.MonthDueDropDown">
+        <test-method signature="testMonthsDueDropdown()[pri:0, instance:test.MonthDueDropDown@404bbcbd]" started-at="2022-09-12T18:16:43Z" name="testMonthsDueDropdown" finished-at="2022-09-12T18:16:52Z" duration-ms="9097" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBackgroundColorChange -->
-      </class> <!-- test.BackgroudColor -->
+        </test-method> <!-- testMonthsDueDropdown -->
+      </class> <!-- test.MonthDueDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

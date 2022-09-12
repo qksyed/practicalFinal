@@ -23,7 +23,8 @@ public class HomePage {
 	@FindBy(how = How.XPATH, using = "/html/body/div[3]/input[1]" ) WebElement Remove_Button_Element;
 	@FindBy(how = How.XPATH, using = "//*[@id=\"extra\"]/input[1]" ) WebElement Add_Category_Element;
 	@FindBy(how = How.XPATH, using = "//*[@id=\"extra\"]/input[2]" ) WebElement Add_Category_Button_Element;
-	@FindBy(how = How.XPATH, using = "//button" ) WebElement Set_Background_Button_Element;
+	@FindBy(how = How.XPATH, using = "//button" ) WebElement Set_Background_Button_Element;	
+	@FindBy(how = How.XPATH, using = "//*[@id=\"extra\"]/select[3]" ) WebElement Month_Dropdown_Element;
 	public void insertListItem(String ListItem) {
 		Add_ListItem_Element.sendKeys(ListItem);
 		
@@ -51,6 +52,11 @@ public class HomePage {
 	public WebElement setBackgroundColor(String buttonName) {
 		WebElement BackgroundButton = driver.findElement(By.xpath("//" + Set_Background_Button_Element.getTagName() + "[text()='" + buttonName + "']"));
 		return BackgroundButton;		
+	}
+	public WebElement monthDropDown() {
+		//Month_Dropdown_Element.click();
+		return Month_Dropdown_Element;
+		
 	}
 
 }
